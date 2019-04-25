@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title> Area do Triangulo </ion-title>
+  <ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-img src="../../assets/img/triangulo.jpg"> </ion-img>
+  <ion-input [(ngModel)]= "base"> </ion-input>                                 //associa a variavel "base" do typescript
+  <ion-input [(ngModel)]= "altura"> </ion-input>                               // associa a variavel "altura" do typescript
+  <ion-button expand= "full" (click) = "calcular()"> </ion-button>             //chama o método "verificar()" do typescript
+  {(resultado)}
+</ion-content>
